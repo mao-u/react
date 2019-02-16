@@ -49,3 +49,11 @@ http.createServer(
 ===================
 
 $ node hello.js
+192.168.33.10:8080
+
+
+# ReactでTODOアプリを作ってみる
+- install
+$ sudo npm install -g create-react-app
+
+$ create-react-app react-redux-todo
