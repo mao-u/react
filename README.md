@@ -58,4 +58,4 @@ $ sudo npm install -g create-react-app
 
 $ create-react-app react-redux-todo
 
-memo:[Storeの作成]から作業再開
+memo:[ReactにReduxを組み込む]から作業再開
