@@ -51,9 +51,11 @@ http.createServer(
 $ node hello.js
 192.168.33.10:8080
 
-
 # ReactでTODOアプリを作ってみる
+- url:https://webbibouroku.com/Blog/Article/react-redux-todo
 - install
 $ sudo npm install -g create-react-app
 
 $ create-react-app react-redux-todo
+
+memo:[Storeの作成]から作業再開
