@@ -58,4 +58,13 @@ $ sudo npm install -g create-react-app
 
 $ create-react-app react-redux-todo
 
-memo:[ReactにReduxを組み込む]から作業再開
+$ cd react-redux-todo
+$ npm install --save redux react-redux redux-logger
+
+[ReactにReduxを組み込む]が終わったら一旦下記コマンドを実行して、動作を画面を確認
+$ cd /vagrant_data/react-redux-todo/
+(vagrantの中)
+$ npm start
+http://192.168.33.10:3000
+
+memo:[Todoコンポーネントを作成する]から作業再開
