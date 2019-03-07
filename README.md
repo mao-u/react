@@ -67,4 +67,5 @@ $ cd /vagrant_data/react-redux-todo/
 $ npm start
 http://192.168.33.10:3000
 
-memo:[Todoコンポーネントを作成する]から作業再開
+# TODOアプリ完了後、webpackを設定
+- https://wp-kyoto.net/learn-webpack-again/
