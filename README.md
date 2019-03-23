@@ -87,11 +87,10 @@ $ sudo npm install --save express
 # 手動起動
 $ node server.js
 
+# バックグラウンドで起動させるパッケージインストール
 $ sudo npm install -g forever
 
 $ forever start server.js
-
-$ forever stop server.js
 
 # TODOアプリ完了後、webpackを設定
 - https://wp-kyoto.net/learn-webpack-again/
