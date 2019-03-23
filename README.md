@@ -67,5 +67,31 @@ $ cd /vagrant_data/react-redux-todo/
 $ npm start
 http://192.168.33.10:3000
 
+# 自動起動
+- https://qiita.com/takenobi/items/797be00dd0b592f484ef
+- https://www.sejuku.net/blog/81363
+$ cd react-redux-todo
+
+$ vim server.js
+  const express = require('express');
+  const app = express();
+  const path = require('path');
+  app.use(express.static(path.join(__dirname, 'build')));
+  const port = process.env.PORT || 3000;
+  const server = app.listen(port, function () {
+      console.log('server start');
+  });
+
+$ sudo npm install --save express
+
+# 手動起動
+$ node server.js
+
+$ sudo npm install -g forever
+
+$ forever start server.js
+
+$ forever stop server.js
+
 # TODOアプリ完了後、webpackを設定
 - https://wp-kyoto.net/learn-webpack-again/
