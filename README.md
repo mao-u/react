@@ -88,7 +88,7 @@ $ sudo npm install --save express
 $ node server.js
 
 # バックグラウンドで起動させるパッケージインストール
-$ sudo npm install -g forever
+$ sudo npm install --save  -g forever
 
 $ forever start server.js
 
